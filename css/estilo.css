@@ -33,3 +33,12 @@ a {
         height: 50px;
 
 }
+
+fieldset {
+    background-color: #1a1a1a; /* Cinza escuro */
+    background-image: linear-gradient(to bottom, #1a1a1a, #333333); 
+    margin: 0; 
+    padding: 0; 
+    color: #ffffff;
+}
+
