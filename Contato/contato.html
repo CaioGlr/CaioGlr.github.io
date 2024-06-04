@@ -15,10 +15,13 @@
     <link rel="shortcut icon" href="../img/Icone.png">
 </head>
 <body>
+
     <div> <span class="border border-light"></span>
+
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <h1 class="lilita-one-regular"> <img class="icone" src="../img/contato.png"> CONTATO</h1>
             <ul class="navbar-nav ml-auto ">
+                
                 <li>
                         <a class="nav-link active" href="../index.html"> Página Inicial</a>
                 </li>
@@ -34,42 +37,69 @@
             </ul>
         </nav>
     </div>
+    <br>
+    <br>
     <div id="corpo">
         <form action="pagina2.html" method="GET";></form>
-            <fieldset>
-                <legend>Contato</legend>
-                <label class="label-50">
-                Nome: <input type="text" name="txt_nome" placeholder="Insira seu nome" required/>        
+        <fieldset>
+            <legend class="lilita-one-regular">Contato
+                <h6>Quer entrar em contato? Envie sua mensagem!</h6>
+            </legend>
+        
+            <div class="social-icons lilita-one-regular">
+                <a href="https://www.instagram.com/caiocglr/" target="_blank">
+                    <img class="insta" src="./img/Instagram.png" alt="Ícone do Instagram">
+                    <p class="lilita-one-regular">Instagram</p>
+                </a>
+                <a href="https://www.facebook.com/caio.galera.58?locale=pt_BR" target="_blank">
+                    <img class="face" src="./img/Facebook.png" alt="Ícone do Facebook">
+                    <p class="lilita-one-regular">Facebook</p>
+                </a>
+                <a href="https://github.com/CaioGlr" target="_blank">
+                    <img class="github" src="./img/Github.png" alt="Ícone do GitHub">
+                    <p class="lilita-one-regular">GitHub</p>
+                </a>
+                <a href="https://www.linkedin.com/in/caio-galera-b5432823b/" target="_blank">
+                    <img class="linkedin" src="./img/Linkedin.png" alt="Ícone do Linkedin">
+                    <p class="lilita-one-regular">Linkedin</p>
+                </a>
+                <br>
+                <legend></legend>
+            </div>
+                <label class="label-150">Nome: 
+                    <input type="text" name="txt_nome" placeholder="Insira seu nome completo." required/>        
+                </label>
+                <div>
+                    <label class="label-50">E-mail: 
+                        <input type="email" name="txt_email" placeholder="Insira seu E-mail" required/>        
+                    </label>
+                    <label class="label-50">Celular: 
+                        <input type="tel" name="txt_celular" placeholder="Seu número de Celular" required/>        
+                    </label>
+                </div>
+                <label class="label-150">Assunto: 
+                    <select name="opcoes">
+                        <option value="opcao1">Sobre Mim</option>
+                        <option value="opcao2">Sobre os Projetos</option>
+                        <option value="opcao3">Sobre a Fatec Jahu</option>
+                        <option value="opcao4">Outros</option>
+                    </select>
+                </label>
+                <label class="label-150">Mensagem: 
+                    <textarea rows="10" type="text" name="txt_msg" placeholder="Descreva sua mensagem" required></textarea>
                 </label>
                 
-                <label class="label-50">
-                E-mail: <input type="email" name="txt_email" placeholder="Insira seu E-mail" required/>        
-                </label>
-                
-                <label class="label-50">
-                Telefone: <input type="number" name="txt_telefone" placeholder="Insira seu Número de Telefone Fixo" required/>        
-                </label>
-                
-                <label class="label-50">
-                Celular: <input type="number" name="txt_celular" placeholder="Insira seu Número de Celular" required/>        
-                </label>
-
-                <label>
-                Assunto: <input type="text" name="txt_ass" placeholder="Qual é o Assunto?" required/>        
-                </label>
-                
-                <label class="label-150">
-                Mensagem: <textarea rows="10" type="text" name="txt_msg" placeholder="Descreva sua mensagem" required></textarea>
-                </label>  
-                
-                
-                    <button type="submit" class="botao-enviar">Enviar</button>
-                
-
-            </fieldset>
             
-        </form>    
-    </div>
+        </fieldset>
+        <br>
+        
+        <fieldset>
+          
+        <button type="submit" class="botao-enviar">Enviar</button>
+        
+        </form>
+    </fieldset>   
+    </div>
 </body>
   
 </body>
