@@ -45,7 +45,7 @@ color: white;
 }
 
 a {
-    color: antiquewhite;
+  color: antiquewhite;
 }
 
 h3 {
@@ -82,7 +82,7 @@ p {
     z-index: 999;
   }
   
-  /* 3 images */
+  /* 3 Imagens */
   img:nth-last-child(3):first-child {
     offset-distance: 17%;
   }
@@ -93,7 +93,7 @@ p {
     offset-distance: 81%;
   }
   
-  /* 5 images */
+  /* 5 imagens */
   img:nth-last-child(5):first-child {
     offset-distance: 0%;
   }
@@ -119,4 +119,9 @@ address {
     background-color: #1f1f1f;
     text-align: center;
     color: #eee;
+}
+
+.linktexto {
+  font-size: 100%;
+  color: lightseagreen;
 }

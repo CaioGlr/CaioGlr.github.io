@@ -39,9 +39,10 @@ h6 {
     filter: grayscale(0%);
   }
 
-.linktexto {
+  .linktexto {
     font-size: 100%;
-}
+    color: lightseagreen;
+  }
 
 .gif {
     
