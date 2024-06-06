@@ -7,8 +7,9 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-label, input, select, textarea{
-    display: block; box-sizing: border-box;
+label, input, select, textarea {
+    display: block;
+    box-sizing: border-box;
 }
 
 input::-webkit-outer-spin-button,
@@ -17,53 +18,72 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-label {
-    padding: 8px;
+.social-icons a {
+    display: inline-block;
+    margin: 0 120px;
+    text-decoration: none;
+    color: #eee;
 }
 
-input, select, textarea {
-    width: 100%; border: 1px outset; padding: 10px;
+h6 {
+    color: #4f4f4f;
 }
 
-.label-50 {
-    width: 45%; float: left;
-    padding: 0 0 0 90px;
-}
-
-.label-150 {
-    width: 70%; float: left;
-    padding: 0px 0 0 350px ; float: left;
-}
-
-.label-assunto  {
-    padding: 0px 0 0 342px;
+.image-container {
+    text-align: center;
+    flex: 0 0 35%; 
 
 }
-textarea {
-    height:100px
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1a1a1a; /* Cinza escuro */
+    background-image: linear-gradient(to bottom, #1f1f1f, #444444);
+}
+
+.form-content {
+    width: 70%;
+}
+
+.imagem {
+    height: 300px; 
+    box-shadow: 1px 6px 18px #0008;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 70px;
+    height: auto;
+}
+
+.social-icons p {
+    margin: 0px 0 0;
+    font-size: 15px;
 }
 
 .social-icons {
     text-align: center;
 }
 
-.social-icons a {
-    display: inline-block;
-    margin: 0 120px;
-    text-decoration: none; 
-    color: #eee;
-}
-
-.social-icons img {
-    width: 50px; 
-    height: auto; 
-}
-
-.social-icons p {
-    margin: 10px 0 0;
-    font-size: 15px;
-}
-
-h6 {
-    color: #4f4f4f;
+fieldset {
+    border-radius: 20px;
+    margin-top: 45px;
 }

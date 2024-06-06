@@ -39,67 +39,92 @@
     </div>
     <br>
     <br>
-    <div id="corpo">
-        <form action="pagina2.html" method="GET";></form>
-        <fieldset>
-            <legend class="lilita-one-regular">Contato
-                <h6>Quer entrar em contato? Envie sua mensagem!</h6>
-            </legend>
-        
-            <div class="social-icons lilita-one-regular">
-                <a href="https://www.instagram.com/caiocglr/" target="_blank">
-                    <img class="insta" src="./img/Instagram.png" alt="Ícone do Instagram">
-                    <p class="lilita-one-regular">Instagram</p>
-                </a>
-                <a href="https://www.facebook.com/caio.galera.58?locale=pt_BR" target="_blank">
-                    <img class="face" src="./img/Facebook.png" alt="Ícone do Facebook">
-                    <p class="lilita-one-regular">Facebook</p>
-                </a>
-                <a href="https://github.com/CaioGlr" target="_blank">
-                    <img class="github" src="./img/Github.png" alt="Ícone do GitHub">
-                    <p class="lilita-one-regular">GitHub</p>
-                </a>
-                <a href="https://www.linkedin.com/in/caio-galera-b5432823b/" target="_blank">
-                    <img class="linkedin" src="./img/Linkedin.png" alt="Ícone do Linkedin">
-                    <p class="lilita-one-regular">Linkedin</p>
-                </a>
-                <br>
-                <legend></legend>
-            </div>
-                <label class="label-150">Nome: 
-                    <input type="text" name="txt_nome" placeholder="Insira seu nome completo." required/>        
-                </label>
-                <div>
-                    <label class="label-50">E-mail: 
-                        <input type="email" name="txt_email" placeholder="Insira seu E-mail" required/>        
-                    </label>
-                    <label class="label-50">Celular: 
-                        <input type="tel" name="txt_celular" placeholder="Seu número de Celular" required/>        
-                    </label>
-                </div>
-                <label class="label-150">Assunto: 
-                    <select name="opcoes">
-                        <option value="opcao1">Sobre Mim</option>
-                        <option value="opcao2">Sobre os Projetos</option>
-                        <option value="opcao3">Sobre a Fatec Jahu</option>
-                        <option value="opcao4">Outros</option>
-                    </select>
-                </label>
-                <label class="label-150">Mensagem: 
-                    <textarea rows="10" type="text" name="txt_msg" placeholder="Descreva sua mensagem" required></textarea>
-                </label>
-                
+    <legend class="lilita-one-regular">Envie sua mensagem
+        <h6 class=>
+            Tem algo a dizer? Entre em contato!
+        </h6>
+    </legend>
+    <div class="container">
             
-        </fieldset>
-        <br>
-        
         <fieldset>
-          
-        <button type="submit" class="botao-enviar">Enviar</button>
-        
-        </form>
-    </fieldset>   
-    </div>
+            <div class="container">
+                    <div class="social-icons lilita-one-regular">
+                        <a href="https://www.instagram.com/caiocglr/" target="_blank">
+                            <img class="insta" src="./img/Instagram.png" alt="Ícone do Instagram">
+                            <p class="lilita-one-regular d-inline">Instagram</p>
+                        </a>
+                        <a href="https://www.facebook.com/caio.galera.58?locale=pt_BR" target="_blank">
+                            <img class="face" src="./img/Facebook.png" alt="Ícone do Facebook">
+                            <p class="lilita-one-regular d-inline">Facebook</p>
+                        </a>
+                        <a href="https://github.com/CaioGlr" target="_blank">
+                            <img class="github" src="./img/Github.png" alt="Ícone do GitHub">
+                            <p class="lilita-one-regular d-inline">GitHub</p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/caio-galera-b5432823b/" target="_blank">
+                            <img class="linkedin" src="./img/Linkedin.png" alt="Ícone do Linkedin">
+                            <p class="lilita-one-regular d-inline">Linkedin</p>
+                        </a>
+                        <br>
+                    </div>
+                </aside>
+                <div class="form-container">
+                    <div>
+                
+                        <img class="imagem"
+                        src="./img/Contato.png" alt="Sua Imagem" class="img-fluid">
+                    </div>
+                    <div class="form-content">
+                        <form>
+                         
+                                <div class="form-group row">
+                                    <label for="nome" class="col-sm-2 col-form-label">Nome:</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="nome" name="txt_nome" placeholder="Insira seu nome completo." required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="email" class="col-sm-2 col-form-label">E-mail:</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email" name="txt_email" placeholder="Insira seu E-mail" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="celular" class="col-sm-2 col-form-label">Celular:</label>
+                                    <div class="col-sm-10">
+                                        <input type="tel" class="form-control" id="celular" name="txt_celular" placeholder="Seu número de Celular" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="assunto" class="col-sm-2 col-form-label">Assunto:</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-control" id="assunto" name="opcoes">
+                                            <option value="opcao1">Sobre o Caio</option>
+                                            <option value="opcao2">Sobre os Projetos</option>
+                                            <option value="opcao3">Sobre a Fatec Jahu</option>
+                                            <option value="opcao4">Outros</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="mensagem" class="col-sm-2 col-form-label">Mensagem:</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" id="mensagem" rows="5" name="txt_msg" placeholder="Descreva sua mensagem" required></textarea>
+                                    </div>
+                                </div>
+                            
+                            <div class="form-group row">
+                                <div class="col-sm-10 offset-sm-2">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                    <button type="reset" class="btn btn-secondary">Limpar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
   
-</body>
