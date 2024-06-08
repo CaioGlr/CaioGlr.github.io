@@ -65,3 +65,56 @@ address {
     border: 1px solid #1f1f1f;
     color: white;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.social-icons a {
+    text-align: center;
+    margin: 0 10px;
+    transition: transform 0.3s;
+    color: #eee;
+}
+.social-icons a:hover {
+    transform: scale(1.06);
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 60px;
+    text-decoration: none; 
+    color: #eee;
+}
+
+.social-icons img {
+    width: 90px; 
+    height: auto; 
+}
+
+.social-icons p {
+    margin: 5px 0 0;
+    font-size: 20px;
+}
+
+.social-icons-header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+}
+.social-icons-header img {
+    width: 30px;
+    height: 30px;
+}
+
+body {
+    background: 
+    linear-gradient(rgba(68, 50, 50, 0.5), rgba(0, 0, 0, 0.2));
+    background-size: cover; 
+}

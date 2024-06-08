@@ -1,5 +1,8 @@
 body {
-    background-image: url("../img/Aparasic.jpg");
+    background: 
+    linear-gradient(rgba(68, 50, 50, 0.5), rgba(0, 0, 0, 0.2)),
+    url("../img/Aparasic.jpg"); 
+    background-size: cover; 
 }
 
 header {
@@ -76,4 +79,66 @@ h3 {
 .social-icons p {
     margin: 5px 0 0;
     font-size: 20px;
+}
+
+.social-icons-header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+}
+.social-icons-header img {
+    width: 30px;
+    height: 30px;
+}
+.custom-text {
+    margin: 20px 0;
+}
+.icon-text {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+.icon-text img {
+    display: block;
+    margin: 0 auto;
+    width: 100px; 
+    transition: transform 0.3s;
+}
+.icon-text p {
+    margin-top: 10px;
+    color: lightblue;
+}
+.icon-text img:hover {
+    transform: scale(1.5);
+}
+.page-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.page-links .link-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+.page-links img {
+    cursor: pointer;
+}
+
+.page-tab {
+    border: 55px solid #4f4f4f; 
+    padding: 10px;
+    margin: 20px; 
+    border-radius: 50px; 
+}
+
+.icon-container {
+    border: 30px solid rgba(192, 198, 201, 0.74); 
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 100px;
+    text-align: center;
 }
