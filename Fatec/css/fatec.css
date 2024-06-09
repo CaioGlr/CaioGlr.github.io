@@ -1,3 +1,37 @@
 body {
     background-image: url("../img/Vincent.jpg");
 }
+
+.lilita-one-regular {
+    font-family: 'Lilita One', cursive;
+}
+.icone {
+    width: 50px;
+    height: auto;
+}
+.lado {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin: 10px;
+    border: 2px solid #8b7c7c;
+}
+
+.aproximar {
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.cores {
+    color: #7c2a2a;
+}
+
+strong  {
+color: #832727; 
+}
+
+.negrito  {
+    color: #832727; 
+    }
+    
